@@ -1,6 +1,6 @@
 var connection = require("./connection");
 
-// formatting
+//formatting
 function printQuestionMarks(num) {
   var arr = [];
 

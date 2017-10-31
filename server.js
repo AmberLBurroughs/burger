@@ -1,6 +1,6 @@
 var express = require("express");
-var exphbs = require("method-override");
-var exphbs = require("body-parser");
+//var methO = require("method-override");
+var bodyParser = require("body-parser");
 
 var app = express();
 
@@ -19,4 +19,4 @@ var routes = require("./controllers/burgers_controller.js");
 
 app.use("/", routes);
 
-app.listen(port);
+app.listen(PORT);
