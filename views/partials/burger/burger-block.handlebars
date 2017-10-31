@@ -1,6 +1,6 @@
 <li>
-	{{name}}
+	{{burger_name}}
 	<button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}">
-		{{#if not devoured}}Devour!{{/if}}
+		{{#unless devoured}}Devour!{{/unless}}
 	</button>
 </li>
